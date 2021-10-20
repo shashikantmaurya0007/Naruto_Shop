@@ -1,0 +1,44 @@
+.order-card {
+  width: 500px;
+  display: flex;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin: 1rem auto;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.order-card img {
+  height: 100px;
+  width: 100px;
+  margin-right: 10px;
+}
+
+.order-card-body {
+  flex: 1;
+  margin: 0 10px;
+  text-align: left;
+}
+
+.order-card-body p {
+  font-size: 13px;
+}
+
+p > span {
+  font-weight: 600;
+}
+
+.order-quantity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.order-quantity button {
+  width: fit-content;
+  margin: 0 5px;
+  border-radius: 5px;
+  padding: 5px 10px;
+}

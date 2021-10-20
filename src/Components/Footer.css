@@ -1,0 +1,27 @@
+.footer {
+  display: flex;
+  background-color: #082032;
+  color: white;
+  justify-content: space-between;
+  padding: 5px 10px;
+}
+
+.footer ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  margin: 0 10px;
+}
+
+footer a:hover {
+  color: #a2cdcd;
+}
+
+footer ul li i {
+  font-size: 15px;
+  color: black;
+}

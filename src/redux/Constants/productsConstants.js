@@ -1,0 +1,7 @@
+const ProductActions = {
+  FETCH_PRODUCT: "FETCH_PRODUCT",
+  FETCH_PRODUCT_FAIL: "FETCH_PRODUCT_FAIL",
+  FETCH_PRODUCT_SUCCESS: "FETCH_PRODUCT_SUCCESS"
+};
+
+export default ProductActions;

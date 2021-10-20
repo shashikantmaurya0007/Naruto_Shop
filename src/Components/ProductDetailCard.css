@@ -1,0 +1,77 @@
+.left-img {
+  width: 300px;
+  height: 300px;
+  margin-right: 1rem;
+}
+
+.product_desc {
+  font-size: 14px;
+  text-align: justify;
+}
+
+.productdetail-container {
+  padding: 1rem;
+  width: 70%;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.productdetail-container h3 {
+  color: #457b9d;
+}
+
+p {
+  margin: 5px;
+}
+
+.productdetail-container p > span {
+  font-weight: 600;
+  color: #082032;
+}
+
+.left-img img {
+  object-fit: fill;
+  height: 100%;
+  width: 100%;
+}
+
+.detail-style {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  /* height: 60vh; */
+  /* flex-flow: wrap; */
+  /* background-color: blue; */
+}
+
+.qunatity {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem auto;
+}
+
+.qunatity button {
+  width: fit-content;
+  margin: 0 10px;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+button {
+  font-weight: bold;
+  width: 40%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+button:hover {
+  background-color: #4b6587;
+  color: white;
+}

@@ -1,0 +1,22 @@
+.nav-bar {
+  display: flex;
+  background-color: #082032;
+  color: white;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.nav-bar a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-bar a:hover {
+  color: #a2cdcd;
+}
